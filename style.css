@@ -2,6 +2,7 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -85,4 +86,14 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 570px) {
+  .col-sm-6 {
+    text-align: center;
+  }
+  .primary-link {
+    margin: 0 20px;
+    display: block;
+  }
 }
